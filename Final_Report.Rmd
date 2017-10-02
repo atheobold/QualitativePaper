@@ -1,5 +1,5 @@
 ---
-title: "Transferability of Statistical Computational Thinking and Abilities to Field Related Applications: A Phenomenological Study of Ecology and LRES Graduate Students"
+title: "Transferability of Statistical Computational Thinking and Abilities to Field Related Applications: A Phenomenological Study of Ecology and Environmental Science Graduate Students"
 author: "Allison Theobold"
 date: "April 28, 2017"
 output:
@@ -70,17 +70,17 @@ set.seed(1800)
 
 ## Background  
 
-Science, Technology, Engineering, and Mathematics (STEM) education has been placed on the front burner by nations throughout the world, "because these subjects are inextricably tied to economic development and success" \cite{padro}. The 2006 Spellings Report found that "fewer American students are earning degrees in STEM fields, medicine, and other disciplines critical to global competitiveness, national security, and economic prosperity." \cite{spellings} The report calls for ``universities and colleges to improve their curricula and instruction in science and math" \cite{padro} as a means of "keeping the nation at the forefront of the knowledge revolution" \cite{spellings}. With the emphasis on STEM education throughout the nation, a larger number of undergraduate students are considering Master's and Doctoral degrees prior to entering the workforce. Ecology and Land Resources and Environmental Sciences are among the fields that require researchers and practitioners to posses a Master's degree, in order to obtain permanent positions with either the state or federal government.      
-This research focuses on graduate students enrolled at a mid-size university in the pacific northwest, where Statistics 511 and 512 are courses required for the completion of a Master's degree in Ecology and Land Resources and Environmental Sciences (LRES). These terminal statistics courses intend to prepare graduate students for the statistical and computational problems they may face as researchers and practitioners. With the growth in computational power, the complexity of ecological models has followed, multiplying the computational, mathematical, and statistical expectations of researchers' abilities.   
+Science, Technology, Engineering, and Mathematics (STEM) education has been placed on the front burner by nations throughout the world, "because these subjects are inextricably tied to economic development and success" \cite{padro}. The 2006 Spellings Report found that "fewer American students are earning degrees in STEM fields, medicine, and other disciplines critical to global competitiveness, national security, and economic prosperity." \cite{spellings} The report calls for ``universities and colleges to improve their curricula and instruction in science and math" \cite{padro} as a means of "keeping the nation at the forefront of the knowledge revolution" \cite{spellings}. With the emphasis on STEM education throughout the nation, a larger number of undergraduate students are considering Master's and Doctoral degrees prior to entering the workforce. Ecology and Environmental Sciences are among the fields that require researchers and practitioners to possess a Master's degree in order to obtain permanent positions with either the state or federal government.      
+This research focuses on graduate students enrolled at a mid-size university in the Rocky Mountains, where Statistics 511 and 512 are courses required for the completion of a Master's degree in Ecology or Environmental Sciences. These terminal statistics courses intend to prepare graduate students for the statistical and computational problems they may face as researchers and practitioners. With the growth in computational power, the complexity of ecological models has followed, multiplying the computational, mathematical, and statistical expectations of researchers' abilities.   
 
-With these complexities in mind, this research aims to describe and understand Ecology and LRES graduate students' abilities to transfer their classroom knowledge to more complex applications, relevant to their field. 
+With these complexities in mind, this research aims to describe and understand Ecology and Environmental Science graduate students' abilities to transfer their classroom knowledge to more complex applications, relevant to their field. 
 
 
 ## Statement of Problem  
 
-In the current research environment, graduate Ecology and LRES students are expected to learn both computational thinking, as well as computational tools and methods in order to become competent researchers and practitioners. Statistics 511 and 512 serve as terminal statistics courses for graduate Ecology and LRES students, potentially providing them with the final statistical computational skills before they begin performing independent research.  
+In the current research environment, graduate Ecology and Environmental Science students are expected to learn both computational thinking, as well as computational tools and methods in order to become competent researchers and practitioners. Statistics 511 and 512 serve as terminal statistics courses for graduate Ecology and Environmental Science students, potentially providing them with the final statistical computational skills before they begin performing independent research.  
 
-Over past few years, it has been observed by the Statistical Consulting Center at this university that Ecology and LRES graduate students seek out computational help for their research, thesis, and even dissertation, following the completion of these graduate statistics courses. 
+Over past few years, it has been observed by the Statistical Consulting Center at this university that Ecology and Environmental Science graduate students seek out computational help for their research, thesis, and even dissertation, following the completion of these graduate statistics courses. 
 
 During the literature review, no studies were found on the development or assessment of computational thinking and abilities of graduate level science students, which conveys the substantial lack of understanding in how these students transfer their classroom knowledge to applications in their fields. Current research in the fields of biology, ecology, and science education are beginning to emphasize the need for both K-12 and undergraduate science students to become computationally literate (\cite{rubinstein}, \cite{hamb}, \cite{gross}, \cite{green}, \cite{geyer}, \cite{cortina}). These fields acknowledge the evolution of science, where modern researchers must engage in computing and understand how computer science is relevant to their work. Universities across the United States are beginning to feature multi-disciplinary courses and workshops in an effort to develop computational thinking for undergraduate science majors. These efforts are largely comprised of teaching students basic programming tools, computational tools, and understandings of the field of computer science. Researchers at Purdue University \cite{hamb} and Tel-Aviv University have developed computational thinking courses, \emph{Introduction to Computational Thinking} and \emph{Computational Approaches for Life Scientists}, for undergraduate science majors that are guided by five main principles,   
 
@@ -92,164 +92,55 @@ During the literature review, no studies were found on the development or assess
 
 Current literature, focused on teaching computational thinking to undergraduate science majors through use of targeted computing courses, suggests potential deficiencies in computing courses for these such students. There is a natural application of the current literature to graduate students in scientific fields, where potentially many students have completed undergraduate science degrees in programs with little to no emphasis on computational thinking or computational tools. 
 
-By examining how Ecology and LRES graduate students apply their computational skills, using qualitative methods, we are able to capture a more in-depth understanding of the successes and shortfalls they experience when implementing computational thinking and skills, given their background. With these understandings, graduate statistics teachers can modify their curriculum to account for these shortcomings, as well as find new methods to challenge students in the computational methods they demonstrate success in. Additionally, if the research indicates substantial shortfalls in students' computational abilities with regard to applications in their fields, the Ecology and LRES departments can assess their coursework involved in their graduate programs, with the possibility of adding a course specifically targeting computational abilities.    
+By examining how Ecology and Environmental Science graduate students apply their computational skills, using qualitative methods, we are able to capture a more in-depth understanding of the successes and shortfalls they experience when implementing computational thinking and skills, given their background. With these understandings, graduate statistics teachers can modify their curriculum to account for these shortcomings, as well as find new methods to challenge students in the computational methods in which they demonstrate success. Additionally, if the research indicates substantial shortfalls in students' computational abilities with regard to applications in their fields, the Ecology and Environmental Science departments can assess their coursework involved in their graduate programs, with the possibility of adding a course specifically targeting computational abilities.    
 
 ## Statement of Purpose  
 
-The purpose of this phenomenological study is to understand and describe the transferability of statistical computation skills to field related applications for Ecology and LRES graduate students at this university. Students' experiences in computational thinking will be investigated using both a qualitative survey of attitudes and experiences and hands-on computational problems. At this stage in the research, we define the transferability of statistical computation abilities as the ability to apply acquired statistical computing skills from the 511 and 512 classroom to applications related to ecological fields. Unlike typical definitions of computational thinking, we are including computational thinking in our definition of computational abilities. In relation to ecological applications, this can include, literacy in performing computing tasks (programming abilities), fluency in data structures, ability to reason through problems with a given tool set, and knowledge of resources that could provide assistance in solving a particular problem. 
+The purpose of this phenomenological study is to understand and describe the transferability of statistical computation skills to field related applications for Ecology and Environmental Science graduate students at this university. Students' experiences in computational thinking will be investigated using both a qualitative survey of attitudes and experiences, and hands-on computational problems. At this stage in the research, we define the transferability of statistical computation abilities as the ability to apply acquired statistical computing skills from the 511 and 512 classroom to applications related to ecological fields. Unlike typical definitions of computational abilities which focus on a student's understanding and fluency of a computer program(s), we are choosing to include computational thinking in our definition of computational abilities. In relation to ecological applications, this can include, fluency in performing computing tasks (programming abilities), data structures, the ability to reason through problems with a given set of tools, as well as knowledge of resources that could provide assistance in solving a particular problem. 
 
 ## Research Questions  
 
 The primary research questions that guided this study were:
 
-1. What factors (attitude, background, course content, etc.) impact Ecology and LRES students' ability to transfer computational skills and understandings to applications in their discipline?  
+1. What factors (attitude, background, course content, etc.) impact Ecology and Environmental Science students' ability to reason through computational applications in their discipline?  
 
 2. In what ways (if any) do these factors inhibit or foster students' computational understandings and abilities, across different skill levels?  
 
+# Review of Related Literature    
+
+Research in computational thinking for science majors is in its infancy, with only a handful of institutions performing research that specifically addresses how to teach and how students learn computational thinking. Primarily, the research being performed is implemented at the undergraduate level, with no research efforts made in the realm of graduate science students. Due to this gap in the literature, the reviewed literature were selected from research on computational thinking and abilities of undergraduate science students  
+
+## Efforts in Understanding Computational Thinking  
+
+The most substantial efforts being made in understanding computational thinking are by researchers at the Harvard Graduate School of Education and researchers at EDC's Center for Children and Technology. Their efforts focus on "supporting and assessing the development of computational thinking through programming" \cite{scratch} for both researchers and K-12 teachers. They have "relied primarily on three approaches: (1) artifact-based interviews, (2) design scenarios, and (3) learner documentation." \cite{harvard} These scenarios were developed in collaboration with researchers at the Education Development Center and are used in the context of Scratch, a computer programming environment for use by elementary through high school students, created by the Lifelong Kindergarten Group at MIT Media Lab. The researchers at Harvard developed three different Scratch projects of increasing complexity, and in a series of interviews ``students were presented with the design scenarios, which were framed as projects that were created by another young Scratcher. The students were then asked to select one of the projects from each set, and (1) explain what the selected project does, (2) describe how it could be extended, (3) fix a bug, and (4) remix the project by adding a feature." \cite{scratch} Through these interviews, substantial contributions have been made in how to assess the ways students engage in computational thinking, with the ability to apply the structure of these interviews to other types of students and other types of computational thinking scenarios. 
+
+## Computational Courses for Undergraduate Science Majors  
+
+Multi-disciplinary efforts have been made at Purdue, Carnegie-Mellon, Harvey Mudd, Princeton, and Winona State (\cite{cortina}, \cite{dodds}, \cite{sedgewick1}, \cite{sedgewick2}, \cite{wilson}, \cite{wing}) to create introductory computing courses with a focus on non-computer science majors, in particular science students, in fields ranging from physics to chemistry to biology. These courses are produced in collaboration with science faculty, and are intended to ``lay the groundwork for computational thinking, present examples in a language familiar to the students, teach in a problem-driven way, use a programming language that right away allows students to focus on computational principles, and make effective use of visualization." \cite{hamb} The structure of the computation course was informed by the physics, chemistry, and bioinformatics departments, where they provided computer science researchers with expectations on what they wished the students would learn. The structure of these undergraduate level statistics courses directly relates to the computational abilities of graduate level science researchers, as they may have graduated from an undergraduate program with no computational training. The concepts emphasized in the courses developed at Purdue, and elsewhere, can be used to inform the graduate level statistics methods courses what skills other scientific disciplines, such as physics, biology, and chemistry, believe to be the most important for students to grasp.    
+
+Given the current research focuses on assessing computational thinking and creating computational courses for undergraduate science majors, we see substantial gaps in understanding how these same issues relate to graduate science students. The statistical methods courses, taken by graduate Ecology and Environmental Science students, potentially serve as their final computational training prior to performing independent research. These such graduate level statistics courses, taken by graduate Ecology and Environmental Science students across the country, provide a natural extension to the current research on computational skills and thinking. It is the intention of this study to close this gap in research and understanding between the computational thinking and skills of undergraduate science students and that of graduate science students.  
+
+# Methodology 
+
+## Method  
+
+For this study, a pragmatic phenomenological approach is appropriate as the intention is to understand and describe Ecology and Environmental Science graduate students ability to apply their statistical computing skills to applications in their field. The focus of this study, on the actions taken by students in the process of computationally reasoning through an application, lends itself naturally to a pragmatic framework. This framework allows for a focus on the process of finding a working solution, allowing for varied solutions rather than a single solution. \cite{creswell}  
+
+The study focuses mainly on ontological aspects of students transferring skills to applications in their field, as we seek to explain how students came to a working solution, with many possible avenues they could have taken. The study also emphasizes factors in student axiological and epistemological beliefs that promote or inhibit student success, seeking to understand how students acquire the knowledge necessary to solve application problems, as well as assessing how students value this knowledge.  
+
+A phenomenological approach was used, as our intention is to understand and describe common computational thinking experiences between Ecology and Environmental Science graduate students. As all students involved in this study have experienced the same phenomenon, enrolling in the Statistics 511 and 512 courses, this study intends to describe the abilities of students, having experienced this common phenomenon, in applying their statistical computing skills to field related applications. 
+
 ## Conceptual, Theoretical Framework  
 
-Inherent in this concept map are the assumptions of theoretical relationships between each of the factors. Initially for this study, we assumed students' motivation largely effects how well they are able to transfer their learned skills to applications in their disciplines. This motivation can be thought of as "a cycle in which thoughts influence behaviors, behaviors drive performance, performance affects thoughts, and the cycle begins again." \cite{motivation} These thoughts could be self-efficacy based (mathematics, statistics, computer science, or environmental sciences), value based (the value the student places on the subject or acquiring knowledge about the subject), intrinsic in nature, extrinsic in nature, or from a variety of other factors.  
-
+Inherent in the concept map informing this research, \ref{conceptmap}, are the assumptions of theoretical relationships between each of the factors. Initially for this study, we assumed students' motivation largely affects how well they are able to transfer their learned skills to applications in their disciplines. This motivation can be thought of as "a cycle in which thoughts influence behaviors, behaviors drive performance, performance affects thoughts, and the cycle begins again." \cite{motivation} These thoughts could be self-efficacy based (mathematics, statistics, computer science, or environmental sciences), value based (the value the student places on the subject or acquiring knowledge about the subject), intrinsic in nature, extrinsic in nature, or from a variety of other factors.  
 
 The computational and statistical aspects of this framework initially were thought to exhibit Bloom's taxonomy. This theory describes the process of learning as a hierarchy of understanding, where students first understand low-level concepts (low-level programming and statistical methods) before thinking about them in more complex ways, and learning higher-level concepts. Each of these categories of understanding can interact with the others, as well as influence or be influenced by a student's attitudes and background. Each of these categories of understanding are then utilized by the students, in a feedback process, to solve application related problems.  
 
-Bloom's taxonomy separates student learning into 6 hierarchical categories, knowledge, comprehension, application, analysis, synthesis, and evaluations. This study will focus primarily in the first three stages of Bloom's taxonomy, describing how students progress from statistical computing knowledge to the ability to apply statistical computing skills to field related applications. 
+Bloom's taxonomy separates student learning into 6 hierarchical categories: knowledge, comprehension, application, analysis, synthesis, and evaluation. This study will focus primarily in the first three stages of Bloom's taxonomy, describing how students progress from statistical computing knowledge to the ability to apply statistical computing skills to field related applications. 
 
-\pagebreak
-
-\begin{center}
-\begin{figure}[h!]
-
-\begin{tikzpicture}
-
-\pgfmathsetmacro{\shift}{0.25ex}
-
-\node [draw , circle] (1) at (-8, 4) {Attitude};
-\node [draw , circle] (2) at (1, 4) {Background};
-\node [draw , circle] (3) at (-12, 0) {Low-Level Concepts};
-\node [draw , circle] (4) at (-7, 0) {Data Structures};
-\node [draw , circle] (7) at (-2, 0) {Statistical Methods};
-\node [draw , circle] (5) at (2.5, 0) {High-Level Concepts};
-\node [draw , circle] (6) at (-4, -8) {Environmental Science Applications};
-
-% ATTITUDE AND BACKGROUND TO EACH OTHER
-\draw [->] (1) -- (2);
-\draw [->] (2) -- (1);
-
-% ATTITUDE AND BACKGROUND TO TOOLS
-\draw [->] (1) -- (3);
-\draw [->] (2) -- (3);
-\draw [->] (1) -- (4);
-\draw [->] (2) -- (4);
-\draw [->] (1) -- (5);
-\draw [->] (2) -- (5);
-\draw [->] (1) -- (7);
-\draw [->] (2) -- (7);
-
-% OTHER DIRECTION
-\draw [->] (3) -- (1);
-\draw [->] (4) -- (1);
-\draw [->] (5) -- (1);
-\draw [->] (7) -- (1);
-
-% TOOLS TO EACH OTHER
-\draw [->] (3) -- (4);
-\draw [->] (4) -- (7);
-\draw [->] (7) -- (5);
-
-
-% OTHER DIRECTION
-\draw [->] (4) -- (3);
-\draw [->] (7) -- (4);
-\draw [->] (5) -- (7);
-
-% TOOLS TO APPLICATIONS
-\draw [->] (3) -- (6);
-\draw [->] (4) -- (6);
-\draw [->] (5) -- (6);
-\draw [->] (7) -- (6);
-
- % OTHER DIRECTION
-\draw [->] (6) -- (3);
-\draw [->] (6) -- (4);
-\draw [->] (6) -- (5);
-\draw [->] (6) -- (7);
-
-% APPLICATION TO ATTITUDES
-\draw [->] (6) to[out = -135, in = -200] (1);
-\draw [->] (1) to[out = -200, in = -135] (6);
-
-% APPLICATION TO ATTITUDES
-\draw [->] (2) to[out = 20, in = -45] (6);
-\draw [->] (6) to[out = -45, in = 20] (2);
-
-
-\end{tikzpicture} 
-
-\end{figure}
-\end{center}
-
-
-\pagebreak
-
-## Limitations & Delimitations  
-
-The Statistics 511 and 512 courses serve a variety of graduate and undergraduate students. For this study, delimitations include selecting to focus on only Ecology and LRES graduate students, in the spring of 2017. Potential limitations of this study include the computational, research, and statistical backgrounds of the students, as well as the amount of time that has passed since students took Statistics 511.   
-
-## Definitions of Terms  
-
-### Background    
-The background could change a student's ability to reason through applications in a variety of ways. For example,  
-
-* it can be associated with what computer programming knowledge they have going in to the courses,   
-* it can be associated with what statistical and mathematical knowledge they have going in to the course,  
-* taking inquiry based statistics, mathematics, or courses related to their field can change their ability to reason through application problems, and    
-* beingg exposed to research based courses can shed light on how statistics and computer programming are being used in their field.   
-
-### Attitude  
-
-As discussed in the literature of science education, student attitudes could affect learning and achievement in a variety of ways \cite{attitude}. For example, a student could   
-
-* have a negative attitude toward taking statistics, computer science, or other computational courses,  
-* have low motivation in learning concepts taught in background and/or statistics courses,  
-* not value the material they are taught in STAT 511/512,  
-* remain calm or become irritated when working through new computational applications.  
-
-### Low-level Programming Concepts    
-These are concepts potentially learned in a computer science (CS) course or a field related course. They are, however, concepts that are explicitly taught in STAT 511.  
-
-* Logical statements (e.g. if else, true/false)   
-* Using built in functions in R (or other software)   
-* Commenting their code, to know why they did what they did  
-* Trouble-shooting error messages  
-
-### High-level Programming Concepts  
-
-These are concepts also potentially learned in a CS course or a field course. They are concepts explicitly taught in STAT 512.   
-
-* Building functions (from scratch)  
-* Objects and classes of objects (numeric/character/factor)  
-* Loops   
-* Conditional statements  
-
-### Data Structures  
-
-These are concepts related to both basic and more advanced understandings of data formats. These concepts could have been introduced in an Introductory Statistics course, an -ometrics course, or a course related to their field. These concepts are explicitly taught in STAT 511.   
-
-* Data Format (what the data look like)   
-
-    + Retrieving the data (importing it, irregardless of format)  
-    + Naming variables  
-    + How to handle missing data  
-    
-* Manipulating Data (data wrangling)  
-
-    + Creating variables (new or from existing variables, polynomials, and interactions)   
-    + Subsetting data (removing rows/columns)    
-    
 ## Assumptions  
  
-For this study, we believe the factors presented in the concept map could influence Ecology and LRES graduate students' abilities to transfer their statistical computing skills to applications relevant to their field. These contributing factors, as well as the relationships between factors, may change following data collection and analysis. 
+For this study, we believe the factors presented in the concept map could influence Ecology and Environmental Science graduate students' abilities to transfer their statistical computing skills to applications relevant to their field. These contributing factors, as well as the relationships between factors, may change following data collection and analysis. 
 
 The study made assumptions that the students interviewed would,  
 
@@ -257,35 +148,6 @@ The study made assumptions that the students interviewed would,
 * truthfully report their research work,  
 * use all knowledge available to them in answering application questions, and \item will not exhibit the Hawthorne effect when being interviewed.  
 
-## Importance of the Research  
-
-This study aims to describe and understand Ecology and LRES graduate students' abilities to transfer their classroom knowledge to more complex applications, relevant to their field. The research builds on current research in computational thinking for undergraduates in science related fields, in describing and understanding factors which impact students' ability to transfer their understandings to applications, as well as understanding how these factors may inhibit or promote students' transfer of skills. With these understandings, graduate statistics and ecological faculty can modify their curriculum to account for these computing ability shortcomings.  
-
-# Review of Related Literature    
-
-The intention of a review of the literature is (1) to situate understanding graduate Ecology and LRES students' computational abilities in the historical context of computing in the sciences; (2) to understand what is known about computational abilities of undergraduate students in scientific fields, and (3) what is known about these same abilities of graduate students in scientific fields. The literature review serves to situate the present study in the empirical literature and to understand how the present study contributes to filling a gap in knowledge of graduate science students' computational thinking and abilities. \cite{ravitch}   
-
-Research in computational thinking for science majors is in its infancy, with only a handful of institutions performing research that specifically addresses how to teach and how students learn computational thinking. Primarily, the research being performed is implemented at the undergraduate level, with no research efforts made in the realm of graduate science students. Due to this gap in the literature, the reviewed literature were selected from research on computational thinking and abilities of undergraduate science students  
-
-## Efforts in Understanding Computational Thinking  
-
-The most substantial efforts being made in understanding computational thinking are by Harvard, where researchers are building tools for assessing the development of computational thinking. They have "relied primarily on three approaches: (1) artifact-based interviews, (2) design scenarios, and (3) learner documentation." \cite{harvard} These scenarios were developed in collaboration with researchers at the Education Development Center and are used in the context of Scratch, a computer programming environment for use by elementary through high school students, created by the Lifelong Kindergarten Group at MIT Media Lab. The researchers at Harvard developed three different Scratch projects of increasing complexity, and in a series of interviews ``students were presented with the design scenarios, which were framed as projects that were created by another young Scratcher. The students were then asked to select one of the projects from each set, and (1) explain what the selected project does, (2) describe how it could be extended, (3) fix a bug, and (4) remix the project by adding a feature." \cite{scratch} Through these interviews, substantial contributions have been made in how to assess the ways students engage in computational thinking, with the ability to apply the structure of these interviews to other types of students and other types of computational thinking scenarios. 
-
-## Computational Courses for Undergraduate Science Majors  
-
-Multi-disciplinary efforts have been made at Purdue, Carnegie-Mellon, Harvey Mudd, Princeton, and Winnona State (\cite{cortina}, \cite{dodds}, \cite{sedgewick1}, \cite{sedgewick2}, \cite{wilson}, \cite{wing}) to create introductory computing courses with a focus on non-computer science majors, in particular science students, in fields ranging from physics to chemistry to biology. These courses are produced in collaboration with science faculty, and are intended to ``lay the groundwork for computational thinking, present examples in a language familiar to the students, teach in a problem-driven way, use a programming language that right away allows students to focus on computational principles, and make effective use of visualization." \cite{hamb} The structure of the computation course was informed by the physics, chemistry, and bioinformatics departments, where they provided computer science researchers with expectations on what they wished the students would learn. The structure of these graduate level statistics courses directly relates to the computational abilities of graduate level science researchers, as they may have graduated from an undergraduate program with no computational training. The concepts emphasized in the courses developed at Purdue, and elsewhere, can be used to inform the graduate level statistics methods courses what skills other scientific disciplines, such as physics, biology, and chemistry, believe to be the most important for students to grasp.    
-
-Given the current research focuses on assessing computational thinking and creating computational courses for undergraduate science majors, we see substantial gaps in understanding how these same issues relate to graduate science students. The statistical methods courses, taken by graduate Ecology and LRES students, potentially serve as their final computational training prior to performing independent research. These such graduate level statistics courses, taken by graduate Ecology and LRES students across the country, provide a natural extension to the current research on computational skills and thinking. It is the intention of this study to close this gap in research and understanding between the computational thinking and skills of undergraduate science students and that of graduate science students.  
-
-# Methodology  
-
-## Method  
-
-For this study, a pragmatic phenomenological approach is appropriate as the intention is to understand and describe Ecology and LRES graduate students ability to apply their statistical computing skills to applications in their field. The focus of this study, on the actions taken by students in the process of computationally reasoning through an application, lends itself naturally to a pragmatic framework. This framework allows for a focus on the process of finding a working solution, allowing for varied solutions rather than a single solution. \cite{creswell}  
-
-The study focuses mainly on ontological aspects of students transferring skills to applications in their field, as we seek to explain how students came to a working solution, with many possible avenues they could have taken. The study also emphasizes factors in student axiological and epistemological beliefs that promote or inhibit student success, seeking to understand how students acquire the knowledge necessary to solve application problems, as well as assessing how students value this knowledge.  
-
-A phenomenological approach was used, as our intention is to understand and describe common computational thinking experiences between Ecology and LRES graduate students. As all students involved in this study have experienced the same phenomenon, enrolling in the Statistics 511 and 512 courses, this study intends to describe the abilities of students, having experienced this common phenomenon, in applying their statistical computing skills to field related applications.  
 
 ## Positionality   
 
@@ -297,15 +159,15 @@ The process by which I learn statistical computing skills has informed the study
 
 Students were selected from the Statistics 512 course in spring of 2017. These students were sampled following their Spring Break, nearly halfway through the course. Only graduate students from the Ecology and Land Resources and Environmental Science departments were considered. These students are taking the course as a coursework requirement for their respective Masters programs. 
 
-In the context of this study, the graduate students involved have chosen to pursue a career in STEM, potentially due to distal factors, such as the nationwide push to inspire high school and undergraduate students to be interested in interest in science, technology, engineering, and math, over the last 10 to 15 years. Given the ever expanding array of STEM jobs, including those in the ecological and environmental science fields, researchers entering these fields are potentially expected to have more computational experience and expertise than in 2010. This distal factor, could have potentially impacted these students choice in pursuing a Master's degree in Ecology or LRES. The structure of the Statistics 512 course in the spring of 2017 has a lab focus, enabling students to take the concepts learned during lecture and weekly apply them to statistical applications. The format of this course could be considered a proximal factor in student learning and achievement. Additionally, the structure of the Statistics 511 course, the semester each student enrolled, could also be considered a proximal factor.  
+In the context of this study, the graduate students involved have chosen to pursue a career in STEM, potentially due to distal factors, such as the nationwide push to inspire high school and undergraduate students to be interested in interest in science, technology, engineering, and math, over the last 10 to 15 years. Given the ever expanding array of STEM jobs, including those in the ecological and environmental science fields, researchers entering these fields are potentially expected to have more computational experience and expertise than in 2010. This distal factor, could have potentially impacted these students choice in pursuing a Master's degree in Ecology or Environmental Science. The structure of the Statistics 512 course in the spring of 2017 has a lab focus, enabling students to take the concepts learned during lecture and weekly apply them to statistical applications. The format of this course could be considered a proximal factor in student learning and achievement. Additionally, the structure of the Statistics 511 course, the semester each student enrolled, could also be considered a proximal factor.  
 
-Students were requested to complete a survey detailing their previous courses, statistics, computer science, and field related, describe their computer programming abilities, and outline their research experience. There were a total of 17 graduate Ecology and LRES students enrolled in this course, and a criterion sampling procedure was used. The students requested to participate in the study were selected so that,  
+Students were requested to complete a survey detailing their previous courses, statistics, computer science, and field related, describe their computer programming abilities, and outline their research experience. There were a total of 17 graduate Ecology and Environmental Science students enrolled in this course, and a criterion sampling procedure was used. The students requested to participate in the study were selected so that,  
 
 * they had taken Statistics 511 in the last 2 years,  
 * they had a variety of programming backgrounds, and  
 * they had a variety of levels of independent research experience.  
 
-These 512 students were requested to participate in the preliminary survey, itemizing their course work, their program of study, and their independent research experience. A total of 16 students completed the survey, nine of which were graduate students in the areas of LRES and Ecology. One of the viable students was not considered to participate, due to his proximity to the researcher. All of the eight remaining students were requested to participate in the study, of which five agreed. All of the students who agreed to participate identified as female. The table and plots below describe the demographics of the study participants.  
+These 512 students were requested to participate in the preliminary survey, itemizing their course work, their program of study, and their independent research experience. A total of 16 students completed the survey, nine of which were graduate students in the areas of Environmental Science and Ecology. One of the viable students was not considered to participate, due to his proximity to the researcher. All of the eight remaining students were requested to participate in the study, of which five agreed. All of the students who agreed to participate identified as female. The table and plots below describe the demographics of the study participants.  
 
 \begin{center}
 \begin{table}[h!]
@@ -314,10 +176,10 @@ These 512 students were requested to participate in the preliminary survey, item
   \bf{Name (pseudonym)} & \bf{Degree} & \bf{Program} \\
   \hline
   Beth & Master's & Animal Range Science \\
-  Catherine & Master's & LRES \\
+  Catherine & Master's & Environmental Science \\
   Kelly & Master's & Ecology \\
-  Robin & Doctorate & LRES \\
-  Stephanie & Master's & LRES \\
+  Robin & Doctorate & Environmental Science \\
+  Stephanie & Master's & Environmental Science \\
   \hline  
 \end{tabular}
 \caption{\label{Table 1} Sample Description}
@@ -348,7 +210,7 @@ survey$Stat_courses <- as.factor(survey$Stat_courses)
 survey$CS_Interest <- as.factor(survey$CS_Interest)
 survey$Stat_Interest <- as.factor(survey$Stat_Interest)
 
-survey$Program[c(2, 4, 5)] <- "LRES"
+survey$Program[c(2, 4, 5)] <- "Environmental Science"
 survey$Program <- droplevels(survey$Program)
 
 ############################# PLOTS ########################################
@@ -478,7 +340,7 @@ grid.arrange(u, v, t, nrow = 2)
 
 \pagebreak
 
-Overall, the students were predominantly seeking Master's degrees and had taken the prerequisite, Stat 511, course in the last three semesters. Very few had any experience taking computer science courses, where the students with computer science experience having taken courses early on in their undergraduate course work. SQL was the predominant language participants were familiar with, due to its background in database management and its use in Ecology and LRES graduate courses. All students had experience with independent research, with three of the participants aiming to complete their Master's theses in the next year.   
+Overall, the students were predominantly seeking Master's degrees and had taken the prerequisite, Stat 511, course in the last three semesters. Very few had any experience taking computer science courses, where the students with computer science experience having taken courses early on in their undergraduate course work. SQL was the predominant language participants were familiar with, due to its background in database management and its use in Ecology and Environmental Science graduate courses. All students had experience with independent research, with three of the participants aiming to complete their Master's theses in the next year.   
 
 ## Data Collection  
 
@@ -518,7 +380,7 @@ Students spoke of the support they have received from fellow graduate students w
 
 *I've been to a point where I didn't know how to do something with my knowledge or what I can find online, and then I'll go to one of my lab-mates.*  
 
-Catherine, a Master's student in LRES, spoke of the expectations of her advisers that the computational problems she was being asked to perform were "easy, since she had all the information." However, she has had numerous experiences where she did not have the knowledge necessary to perform the task or she was missing "little caveats" that kept her from fully being able to perform the tasks. When faced with these problems, she "reached out to previous students that had taken the course." Robin, a doctoral student in LRES, reiterated Catherine's experiences, describing how she reached out to other graduate students in other labs for help with computational problems. Stephanie, also a doctoral student in LRES, described how when she is faced with computational problems beyond her knowledge she has never been forced to ``go beyond talking to her lab-mates" for assistance. 
+Catherine, a Master's student in Environmental Science, spoke of the expectations of her advisers that the computational problems she was being asked to perform were "easy, since she had all the information." However, she has had numerous experiences where she did not have the knowledge necessary to perform the task or she was missing "little caveats" that kept her from fully being able to perform the tasks. When faced with these problems, she "reached out to previous students that had taken the course." Robin, a doctoral student in Environmental Science, reiterated Catherine's experiences, describing how she reached out to other graduate students in other labs for help with computational problems. Stephanie, also a doctoral student in Environmental Science, described how when she is faced with computational problems beyond her knowledge she has never been forced to ``go beyond talking to her lab-mates" for assistance. 
 
 However, Kelly has also had negative experiences when seeking computational assistance from graduate students not of close proximity to her. 
 
@@ -538,7 +400,7 @@ For Kelly, another graduate student on the same project as her serves as this co
 
 Through her computational struggles, Catherine found assistance from previous graduate students from the department, but she found the most assistance from a previous graduate student ``who had left the department and was off professionally somewhere else, but he still took the time to help walk me through [my code]." 
 
-One participant, Stephanie, a LRES doctoral student, serves as the computational consultant for the many members of the LRES department. With her experiences teaching herself ``R``, she is able to "explain code in a way that makes sense," says Robin a fellow LRES doctoral student who often seeks out help from Stephanie. With an adviser from a computational background and a project which performs computer modeling, she "has to learn code." Additionally, her laboratory often works in collaboration with faculty from the computer science department, where she and her lab-mates are taught computer science coding practices and jargon. "Stephanie has gotten good at teaching it, because everyone on our floor is like 'I can't do this, Stephanie help me,'" says Robin. Stephanie stated that graduate students seek her assistance "daily" or "at minimum two to three times a week." In contrast, when Stephanie experiences difficulty in performing computational tasks, she finds solace in her lab-mates and ultimately, when necessary, with her adviser. 
+One participant, Stephanie, a Environmental Science doctoral student, serves as the computational consultant for the many members of the Environmental Science department. With her experiences teaching herself ``R``, she is able to "explain code in a way that makes sense," says Robin a fellow Environmental Science doctoral student who often seeks out help from Stephanie. With an adviser from a computational background and a project which performs computer modeling, she "has to learn code." Additionally, her laboratory often works in collaboration with faculty from the computer science department, where she and her lab-mates are taught computer science coding practices and jargon. "Stephanie has gotten good at teaching it, because everyone on our floor is like 'I can't do this, Stephanie help me,'" says Robin. Stephanie stated that graduate students seek her assistance "daily" or "at minimum two to three times a week." In contrast, when Stephanie experiences difficulty in performing computational tasks, she finds solace in her lab-mates and ultimately, when necessary, with her adviser. 
 
 *My entire lab works in the same room and my adviser's door is always open. So if someone is having a major issue, whoever is in the room can hear that. If [my adviser] hears me ask [lab-mate] how to do something and he knows how, he just shouts how to do it. So it's a very group oriented dynamic. I've never had to go beyond the people in my lab.*    
     
@@ -556,7 +418,7 @@ Similar sentiments were voiced by Beth, with the majority of her computational k
 
 # Conclusions  
 
-The intention of this study was to describe and understand what factors impact Ecology and LRES graduate students' abilities to transfer their computational skills and understandings to applications in their disciplines. Students who participated in the study both described their experiences with computational thinking and abilities, related to applications in their field, and worked through computational problems, which challenged their computational understanding and abilities.  
+The intention of this study was to describe and understand what factors impact Ecology and Environmental Science graduate students' abilities to transfer their computational skills and understandings to applications in their disciplines. Students who participated in the study both described their experiences with computational thinking and abilities, related to applications in their field, and worked through computational problems, which challenged their computational understanding and abilities.  
 
 Three themes arose from the study, characterizing the factors with the greatest impact on the participants' computational abilities and understandings, as related to applications in their fields. First, participants voiced the importance of their experiences performing independent research as a substantial influence on their abilities to reason through and perform computational problems. Through independent research, the participants were able to play with real-world data and applications outside of what they saw in the classroom. These experiences also opened the door to the unease that comes when one is asked to perform computational tasks beyond one's knowledge. In these circumstances, the participants discussed their reliance on peers and singular consultants to aid them in accomplishing computational tasks.  
 
@@ -566,13 +428,13 @@ In a direct connection to the participants' discomfort in asking for help from a
 
 The second purpose of this study was to describe how these factors impacted students' computational abilities across different levels of understanding. The theme of research experiences, with its overall positive tone by participants, produced different experiences for students with fewer computational skills and understandings than students with more. The frustrations of simple tasks, such as subsetting data or removing NA's, were felt by the participants who completed a Bachelors without any computational elements to their coursework, while those who were exposed to small amounts of computing in their undergraduate coursework, such as a GIS course or experience with ``Access``databases, were able to begin computational tasks in their research walking and not crawling.  
 
-The largest difference in the impacts of a factor between computational skill groups, came in the theme of a singular consultant. One participant, Stephanie, who entered graduate school after completing a years work as a research assistant, working with ``R``, instead serves as the computational consultant for the LRES department. She still described the theme of seeking help from her peers, predominantly her lab-mates, but, for her, the singular consultant was her adviser. Potentially due to her larger computational understanding, Stephanie felt less of a power difference than other participants, when seeking help from her adviser.     
+The largest difference in the impacts of a factor between computational skill groups, came in the theme of a singular consultant. One participant, Stephanie, who entered graduate school after completing a years work as a research assistant, working with ``R``, instead serves as the computational consultant for the Environmental Science department. She still described the theme of seeking help from her peers, predominantly her lab-mates, but, for her, the singular consultant was her adviser. Potentially due to her larger computational understanding, Stephanie felt less of a power difference than other participants, when seeking help from her adviser.     
 
 The findings of this study, reinforce the themes common in current literature on computational thinking and computational abilities of students in scientific fields. The interview protocol utilized in this study, provides a natural extension of the computational thinking interviews utilized at Harvard \cite{harvard}. In the context of this study, artifact-based interviews were implemented, followed by computational thinking scenarios. The computational thinking scenarios given to the participants were of increasing complexity, similar to the protocol implemented at Harvard in the context of Scratch \cite{harvard}. The participants were asked questions similar to those asked in the Harvard study, (1) how would you perform this task, (2) what is another method that could have been used to complete the task, and (3) how would you fix the following bug related to this task. These interviews provide support for the current research in computational thinking, and make substantial contributions to the understanding of how graduate students in ecological fields engage in computational thinking. 
 
-Additionally, this study provides an extension to the current research area of developing computational courses for undergraduate science majors. As all of the participants of this study completed Bachelors degrees in scientific disciplines, specifically ecological fields, without any introductions to computing, they support the theme that universities need to ``lay the groundwork for computational thinking" in undergraduate coursework \cite{hamb}. The computational gaps, found by this study, causing difficulties for graduate Ecology and LRES students' ability to work through applications in their fields can be used to inform graduate programs what skills their students may need to be directly taught, or are not learning in the current curriculum. These deficiencies in understanding and abilities can be used to inform the literature as to what multi-disciplinary efforts can be made to prepare graduate students in scientific fields to be computationally literate independent researchers and practitioners.  
+Additionally, this study provides an extension to the current research area of developing computational courses for undergraduate science majors. As all of the participants of this study completed Bachelors degrees in scientific disciplines, specifically ecological fields, without any introductions to computing, they support the theme that universities need to ``lay the groundwork for computational thinking" in undergraduate coursework \cite{hamb}. The computational gaps, found by this study, causing difficulties for graduate Ecology and Environmental Science students' ability to work through applications in their fields can be used to inform graduate programs what skills their students may need to be directly taught, or are not learning in the current curriculum. These deficiencies in understanding and abilities can be used to inform the literature as to what multi-disciplinary efforts can be made to prepare graduate students in scientific fields to be computationally literate independent researchers and practitioners.  
 
-Due to the nature of how the sample was collected, the findings of this study are potentially limited to these participants. A benefit of criterion sampling is the breadth of experiences the researcher is able to capture from a small number of participants. As this study was able to capture the experiences of both Master's and Doctoral students, as well as students from a variety of ecological fields, within the Ecology and LRES departments, conclusions could possibly be transferred to students of similar backgrounds at this university. As all of the participants identified as female, we are forced to question if these experiences would be consistent for students who identified as male or did not identify as either gender. The power dynamics of females relating to their male advisers, and their discomfort in asking for computational assistance, could be found nonexistent for male students of similar backgrounds.       
+Due to the nature of how the sample was collected, the findings of this study are potentially limited to these participants. A benefit of criterion sampling is the breadth of experiences the researcher is able to capture from a small number of participants. As this study was able to capture the experiences of both Master's and Doctoral students, as well as students from a variety of ecological fields, within the Ecology and Environmental Science departments, conclusions could possibly be transferred to students of similar backgrounds at this university. As all of the participants identified as female, we are forced to question if these experiences would be consistent for students who identified as male or did not identify as either gender. The power dynamics of females relating to their male advisers, and their discomfort in asking for computational assistance, could be found nonexistent for male students of similar backgrounds.       
 
 # Discussion  
 
@@ -636,10 +498,139 @@ The programming understandings informed by a student's independent research, in 
 
 # Implications  
 
-This study better informs the faculty and staff and staff at this institution of the computational needs of graduate students in the fields of Ecology and LRES. In the discussion of how students are acquiring the computational understandings necessary to successfully perform field related applications, we are able to see how both instruction and learning could be improved. It is possible that students are acquiring computational skills in the classroom, however there is also the possibility that the concepts being taught are not at a low enough level for students to understand them independently of their peers.  
+This study better informs the faculty and staff and staff at this institution of the computational needs of graduate students in the fields of Ecology and Environmental Science. In the discussion of how students are acquiring the computational understandings necessary to successfully perform field related applications, we are able to see how both instruction and learning could be improved. It is possible that students are acquiring computational skills in the classroom, however there is also the possibility that the concepts being taught are not at a low enough level for students to understand them independently of their peers.  
 
 To better inform faculty in these departments, a thorough investigation of both the coursework (syllabus) and structure (lecture, laboratory, etc.) of courses completed by these participants could be performed. This will allow for a discussion of how to best teach these computational concepts, so that students leave the classroom with understandings they can immediately implement in their own research.  
 
+\pagebreak  
+
+# Apendix  
+
+\begin{center}
+\begin{figure}[h!]\label{conceptmap}
+
+\begin{tikzpicture}
+
+\pgfmathsetmacro{\shift}{0.25ex}
+
+\node [draw , circle] (1) at (-8, 4) {Attitude};
+\node [draw , circle] (2) at (1, 4) {Background};
+\node [draw , circle] (3) at (-12, 0) {Low-Level Concepts};
+\node [draw , circle] (4) at (-7, 0) {Data Structures};
+\node [draw , circle] (7) at (-2, 0) {Statistical Methods};
+\node [draw , circle] (5) at (2.5, 0) {High-Level Concepts};
+\node [draw , circle] (6) at (-4, -8) {Environmental Science Applications};
+
+% ATTITUDE AND BACKGROUND TO EACH OTHER
+\draw [->] (1) -- (2);
+\draw [->] (2) -- (1);
+
+% ATTITUDE AND BACKGROUND TO TOOLS
+\draw [->] (1) -- (3);
+\draw [->] (2) -- (3);
+\draw [->] (1) -- (4);
+\draw [->] (2) -- (4);
+\draw [->] (1) -- (5);
+\draw [->] (2) -- (5);
+\draw [->] (1) -- (7);
+\draw [->] (2) -- (7);
+
+% OTHER DIRECTION
+\draw [->] (3) -- (1);
+\draw [->] (4) -- (1);
+\draw [->] (5) -- (1);
+\draw [->] (7) -- (1);
+
+% TOOLS TO EACH OTHER
+\draw [->] (3) -- (4);
+\draw [->] (4) -- (7);
+\draw [->] (7) -- (5);
+
+
+% OTHER DIRECTION
+\draw [->] (4) -- (3);
+\draw [->] (7) -- (4);
+\draw [->] (5) -- (7);
+
+% TOOLS TO APPLICATIONS
+\draw [->] (3) -- (6);
+\draw [->] (4) -- (6);
+\draw [->] (5) -- (6);
+\draw [->] (7) -- (6);
+
+ % OTHER DIRECTION
+\draw [->] (6) -- (3);
+\draw [->] (6) -- (4);
+\draw [->] (6) -- (5);
+\draw [->] (6) -- (7);
+
+% APPLICATION TO ATTITUDES
+\draw [->] (6) to[out = -135, in = -200] (1);
+\draw [->] (1) to[out = -200, in = -135] (6);
+
+% APPLICATION TO ATTITUDES
+\draw [->] (2) to[out = 20, in = -45] (6);
+\draw [->] (6) to[out = -45, in = 20] (2);
+
+
+\end{tikzpicture} 
+\caption{Concept Map of Computational Abilities and Understandings}
+\end{figure}
+\end{center}
+
+\pagebreak
+
+## Definitions of Terms  
+
+### Background    
+The background could change a student's ability to reason through applications in a variety of ways. For example,  
+
+* it can be associated with what computer programming knowledge they have going in to the courses,   
+* it can be associated with what statistical and mathematical knowledge they have going in to the course,  
+* taking inquiry based statistics, mathematics, or courses related to their field can change their ability to reason through application problems, and    
+* beingg exposed to research based courses can shed light on how statistics and computer programming are being used in their field.   
+
+### Attitude  
+
+As discussed in the literature of science education, student attitudes could affect learning and achievement in a variety of ways \cite{attitude}. For example, a student could   
+
+* have a negative attitude toward taking statistics, computer science, or other computational courses,  
+* have low motivation in learning concepts taught in background and/or statistics courses,  
+* not value the material they are taught in STAT 511/512,  
+* remain calm or become irritated when working through new computational applications.  
+
+### Low-level Programming Concepts    
+These are concepts potentially learned in a computer science (CS) course or a field related course. They are, however, concepts that are explicitly taught in STAT 511.  
+
+* Logical statements (e.g. if else, true/false)   
+* Using built in functions in R (or other software)   
+* Commenting their code, to know why they did what they did  
+* Trouble-shooting error messages  
+
+### High-level Programming Concepts  
+
+These are concepts also potentially learned in a CS course or a field course. They are concepts explicitly taught in STAT 512.   
+
+* Building functions (from scratch)  
+* Objects and classes of objects (numeric/character/factor)  
+* Loops   
+* Conditional statements  
+
+### Data Structures  
+
+These are concepts related to both basic and more advanced understandings of data formats. These concepts could have been introduced in an Introductory Statistics course, an -ometrics course, or a course related to their field. These concepts are explicitly taught in STAT 511.   
+
+* Data Format (what the data look like)   
+
+    + Retrieving the data (importing it, irregardless of format)  
+    + Naming variables  
+    + How to handle missing data  
+    
+* Manipulating Data (data wrangling)  
+
+    + Creating variables (new or from existing variables, polynomials, and interactions)   
+    + Subsetting data (removing rows/columns)   
+    
 \pagebreak
 
 \begin{thebibliography}{99}
