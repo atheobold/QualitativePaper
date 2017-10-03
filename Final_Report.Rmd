@@ -66,47 +66,25 @@ clusterSetRNGStream(clust, 1800)
 set.seed(1800)
 ```
 
+# Abstract 
+
+
 # Introduction  
 
 ## Background  
 
-Science, Technology, Engineering, and Mathematics (STEM) education has been placed on the front burner by nations throughout the world, "because these subjects are inextricably tied to economic development and success" \cite{padro}. The 2006 Spellings Report found that "fewer American students are earning degrees in STEM fields, medicine, and other disciplines critical to global competitiveness, national security, and economic prosperity." \cite{spellings} The report calls for ``universities and colleges to improve their curricula and instruction in science and math" \cite{padro} as a means of "keeping the nation at the forefront of the knowledge revolution" \cite{spellings}. With the emphasis on STEM education throughout the nation, a larger number of undergraduate students are considering Master's and Doctoral degrees prior to entering the workforce. Ecology and Environmental Sciences are among the fields that require researchers and practitioners to possess a Master's degree in order to obtain permanent positions with either the state or federal government.      
-This research focuses on graduate students enrolled at a mid-size university in the Rocky Mountains, where Statistics 511 and 512 are courses required for the completion of a Master's degree in Ecology or Environmental Sciences. These terminal statistics courses intend to prepare graduate students for the statistical and computational problems they may face as researchers and practitioners. With the growth in computational power, the complexity of ecological models has followed, multiplying the computational, mathematical, and statistical expectations of researchers' abilities.   
+With the growth in computational power, the complexity of ecological models has followed, multiplying the computational, mathematical, and statistical expectations of researchers' abilities. We define the transferability of statistical computation abilities as the ability to apply acquired statistical computing skills from the Methods of Data Analysis classroom to applications related to ecological fields. Unlike typical definitions of computational abilities, which focus on a student's understanding and fluency of a computer program(s), we are choosing to include computational thinking in our definition of computational abilities. In relation to ecological applications, this can include, fluency in performing computing tasks (programming abilities), data structures, the ability to reason through problems with a given set of tools, as well as knowledge of resources that could provide assistance in solving a particular problem. 
 
-With these complexities in mind, this research aims to describe and understand Ecology and Environmental Science graduate students' abilities to transfer their classroom knowledge to more complex applications, relevant to their field. 
+This research focuses on graduate students enrolled at a mid-size university in the Rocky Mountains, where Methods of Data Analysis I and II are graduate statistics courses required for the completion of a Master's degree in Ecology or the Environmental Sciences. These terminal statistics courses intend to prepare graduate students for the statistical and computational problems they may face as researchers and practitioners. These courses additionally potentially provide students with the final statistical computational skills before they begin performing independent research.
 
+By examining how Ecology and Environmental Science graduate students apply their computational skills, we are able to capture a more in-depth understanding of the successes and shortfalls they experience when implementing computational thinking and skills, given their background. With these understandings, graduate statistics teachers can modify their curriculum to account for these shortcomings, as well as find new methods to challenge students in the computational methods in which they demonstrate success. Additionally, if the research indicates substantial shortfalls in students' computational abilities with regard to applications in their fields, the Ecology and Environmental Science departments can assess their coursework involved in their graduate programs, with the possibility of adding a course specifically targeting computational abilities.   
 
-## Statement of Problem  
-
-In the current research environment, graduate Ecology and Environmental Science students are expected to learn both computational thinking, as well as computational tools and methods in order to become competent researchers and practitioners. Statistics 511 and 512 serve as terminal statistics courses for graduate Ecology and Environmental Science students, potentially providing them with the final statistical computational skills before they begin performing independent research.  
-
-Over past few years, it has been observed by the Statistical Consulting Center at this university that Ecology and Environmental Science graduate students seek out computational help for their research, thesis, and even dissertation, following the completion of these graduate statistics courses. 
-
-During the literature review, no studies were found on the development or assessment of computational thinking and abilities of graduate level science students, which conveys the substantial lack of understanding in how these students transfer their classroom knowledge to applications in their fields. Current research in the fields of biology, ecology, and science education are beginning to emphasize the need for both K-12 and undergraduate science students to become computationally literate (\cite{rubinstein}, \cite{hamb}, \cite{gross}, \cite{green}, \cite{geyer}, \cite{cortina}). These fields acknowledge the evolution of science, where modern researchers must engage in computing and understand how computer science is relevant to their work. Universities across the United States are beginning to feature multi-disciplinary courses and workshops in an effort to develop computational thinking for undergraduate science majors. These efforts are largely comprised of teaching students basic programming tools, computational tools, and understandings of the field of computer science. Researchers at Purdue University \cite{hamb} and Tel-Aviv University have developed computational thinking courses, \emph{Introduction to Computational Thinking} and \emph{Computational Approaches for Life Scientists}, for undergraduate science majors that are guided by five main principles,   
-
-* laying the groundwork for computational thinking,   
-* presenting examples in a language familiar to the students,   
-* teaching in a problem-driven way,   
-* using a programming language that straight away allows students to focus on computational principles, and    
-* making effective use of visualization.  
-
-Current literature, focused on teaching computational thinking to undergraduate science majors through use of targeted computing courses, suggests potential deficiencies in computing courses for these such students. There is a natural application of the current literature to graduate students in scientific fields, where potentially many students have completed undergraduate science degrees in programs with little to no emphasis on computational thinking or computational tools. 
-
-By examining how Ecology and Environmental Science graduate students apply their computational skills, using qualitative methods, we are able to capture a more in-depth understanding of the successes and shortfalls they experience when implementing computational thinking and skills, given their background. With these understandings, graduate statistics teachers can modify their curriculum to account for these shortcomings, as well as find new methods to challenge students in the computational methods in which they demonstrate success. Additionally, if the research indicates substantial shortfalls in students' computational abilities with regard to applications in their fields, the Ecology and Environmental Science departments can assess their coursework involved in their graduate programs, with the possibility of adding a course specifically targeting computational abilities.    
 
 ## Statement of Purpose  
 
-The purpose of this phenomenological study is to understand and describe the transferability of statistical computation skills to field related applications for Ecology and Environmental Science graduate students at this university. Students' experiences in computational thinking will be investigated using both a qualitative survey of attitudes and experiences, and hands-on computational problems. At this stage in the research, we define the transferability of statistical computation abilities as the ability to apply acquired statistical computing skills from the 511 and 512 classroom to applications related to ecological fields. Unlike typical definitions of computational abilities which focus on a student's understanding and fluency of a computer program(s), we are choosing to include computational thinking in our definition of computational abilities. In relation to ecological applications, this can include, fluency in performing computing tasks (programming abilities), data structures, the ability to reason through problems with a given set of tools, as well as knowledge of resources that could provide assistance in solving a particular problem. 
+The purpose of this phenomenological study is to understand and describe the transferability of statistical computation skills to field related applications for Ecology and Environmental Science graduate students at this university. Students' experiences in computational thinking will be investigated using both a qualitative survey of attitudes and experiences, and hands-on computational problems. 
 
-## Research Questions  
-
-The primary research questions that guided this study were:
-
-1. What factors (attitude, background, course content, etc.) impact Ecology and Environmental Science students' ability to reason through computational applications in their discipline?  
-
-2. In what ways (if any) do these factors inhibit or foster students' computational understandings and abilities, across different skill levels?  
-
-# Review of Related Literature    
+# Computational Thiking and Abilities of Science Students
 
 Research in computational thinking for science majors is in its infancy, with only a handful of institutions performing research that specifically addresses how to teach and how students learn computational thinking. Primarily, the research being performed is implemented at the undergraduate level, with no research efforts made in the realm of graduate science students. Due to this gap in the literature, the reviewed literature were selected from research on computational thinking and abilities of undergraduate science students  
 
@@ -122,44 +100,11 @@ Given the current research focuses on assessing computational thinking and creat
 
 # Methodology 
 
-## Method  
+For this study, a pragmatic phenomenological approach is appropriate as the intention is to understand and describe common experiences in computational thinking and abilities for Ecology and Environmental Science graduate students, in applying their statistical computing skills to applications in their field. The focus of this study, on the actions taken by students in the process of computationally reasoning through an application, lends itself naturally to a pragmatic framework. This framework allows for a focus on the process of finding a working solution, allowing for varied solutions rather than a single solution. \cite{creswell}  
 
-For this study, a pragmatic phenomenological approach is appropriate as the intention is to understand and describe Ecology and Environmental Science graduate students ability to apply their statistical computing skills to applications in their field. The focus of this study, on the actions taken by students in the process of computationally reasoning through an application, lends itself naturally to a pragmatic framework. This framework allows for a focus on the process of finding a working solution, allowing for varied solutions rather than a single solution. \cite{creswell}  
+## Participants  
 
-The study focuses mainly on ontological aspects of students transferring skills to applications in their field, as we seek to explain how students came to a working solution, with many possible avenues they could have taken. The study also emphasizes factors in student axiological and epistemological beliefs that promote or inhibit student success, seeking to understand how students acquire the knowledge necessary to solve application problems, as well as assessing how students value this knowledge.  
-
-A phenomenological approach was used, as our intention is to understand and describe common computational thinking experiences between Ecology and Environmental Science graduate students. As all students involved in this study have experienced the same phenomenon, enrolling in the Statistics 511 and 512 courses, this study intends to describe the abilities of students, having experienced this common phenomenon, in applying their statistical computing skills to field related applications. 
-
-## Conceptual, Theoretical Framework  
-
-Inherent in the concept map informing this research, \ref{conceptmap}, are the assumptions of theoretical relationships between each of the factors. Initially for this study, we assumed students' motivation largely affects how well they are able to transfer their learned skills to applications in their disciplines. This motivation can be thought of as "a cycle in which thoughts influence behaviors, behaviors drive performance, performance affects thoughts, and the cycle begins again." \cite{motivation} These thoughts could be self-efficacy based (mathematics, statistics, computer science, or environmental sciences), value based (the value the student places on the subject or acquiring knowledge about the subject), intrinsic in nature, extrinsic in nature, or from a variety of other factors.  
-
-The computational and statistical aspects of this framework initially were thought to exhibit Bloom's taxonomy. This theory describes the process of learning as a hierarchy of understanding, where students first understand low-level concepts (low-level programming and statistical methods) before thinking about them in more complex ways, and learning higher-level concepts. Each of these categories of understanding can interact with the others, as well as influence or be influenced by a student's attitudes and background. Each of these categories of understanding are then utilized by the students, in a feedback process, to solve application related problems.  
-
-Bloom's taxonomy separates student learning into 6 hierarchical categories: knowledge, comprehension, application, analysis, synthesis, and evaluation. This study will focus primarily in the first three stages of Bloom's taxonomy, describing how students progress from statistical computing knowledge to the ability to apply statistical computing skills to field related applications. 
-
-## Assumptions  
- 
-For this study, we believe the factors presented in the concept map could influence Ecology and Environmental Science graduate students' abilities to transfer their statistical computing skills to applications relevant to their field. These contributing factors, as well as the relationships between factors, may change following data collection and analysis. 
-
-The study made assumptions that the students interviewed would,  
-
-* truthfully report their coursework,   
-* truthfully report their research work,  
-* use all knowledge available to them in answering application questions, and \item will not exhibit the Hawthorne effect when being interviewed.  
-
-
-## Positionality   
-
-As a doctoral student in Statistics, I am familiar with the course material of the Statistics 511 and 512 courses. Additionally, I have performed statistical consulting for graduate students in the Ecology and Land Resources, Environmental Science departments, and have seen a small number of computational components to these graduate students' research that they struggle with. In my coursework as a graduate student, I experienced computational shortfalls, where I was expected to have the ability to transfer concepts I had learned previously to a new, seemingly unrelated, problem. These experiences as a graduate student and a statistical consultant brought me to this topic of how graduate science students are able to successfully transfer their statistical computing abilities to applications.  
-
-The process by which I learn statistical computing skills has informed the study's hypothesized conceptual map. This map reflects the factors and hierarchy that influence my ability to learn new computational skills. Additionally, my philosophical beliefs reinforce the concepts in this map. For example, considering value as a large factor in student achievement, reinforces my pragmatic axiological belief that knowledge is based on the value the student places upon it. Additionally, the method of inquiry inherent in the study reflects my epistemological belief that acquiring the knowledge necessary for solving application problems can come from many possible venues.   
-
-## Site selection, Context, Sample, \& Sampling Procedures  
-
-Students were selected from the Statistics 512 course in spring of 2017. These students were sampled following their Spring Break, nearly halfway through the course. Only graduate students from the Ecology and Land Resources and Environmental Science departments were considered. These students are taking the course as a coursework requirement for their respective Masters programs. 
-
-In the context of this study, the graduate students involved have chosen to pursue a career in STEM, potentially due to distal factors, such as the nationwide push to inspire high school and undergraduate students to be interested in interest in science, technology, engineering, and math, over the last 10 to 15 years. Given the ever expanding array of STEM jobs, including those in the ecological and environmental science fields, researchers entering these fields are potentially expected to have more computational experience and expertise than in 2010. This distal factor, could have potentially impacted these students choice in pursuing a Master's degree in Ecology or Environmental Science. The structure of the Statistics 512 course in the spring of 2017 has a lab focus, enabling students to take the concepts learned during lecture and weekly apply them to statistical applications. The format of this course could be considered a proximal factor in student learning and achievement. Additionally, the structure of the Statistics 511 course, the semester each student enrolled, could also be considered a proximal factor.  
+Students were selected from the Methods of Data Analysis II course in spring of 2017. These students were sampled following their spring break, nearly halfway through the course. Only graduate students from the Ecology and Environmental Science departments were considered. These students are taking the course as a coursework requirement for their respective Masters programs. 
 
 Students were requested to complete a survey detailing their previous courses, statistics, computer science, and field related, describe their computer programming abilities, and outline their research experience. There were a total of 17 graduate Ecology and Environmental Science students enrolled in this course, and a criterion sampling procedure was used. The students requested to participate in the study were selected so that,  
 
@@ -340,15 +285,30 @@ grid.arrange(u, v, t, nrow = 2)
 
 \pagebreak
 
-Overall, the students were predominantly seeking Master's degrees and had taken the prerequisite, Stat 511, course in the last three semesters. Very few had any experience taking computer science courses, where the students with computer science experience having taken courses early on in their undergraduate course work. SQL was the predominant language participants were familiar with, due to its background in database management and its use in Ecology and Environmental Science graduate courses. All students had experience with independent research, with three of the participants aiming to complete their Master's theses in the next year.   
-
 ## Data Collection  
 
 Following the preliminary survey, students who agreed to be interviewed were given a questionnaire detailing their coursework, assessing their experiences, and attitudes in computational thinking. These surveys were modified from validated computational thinking surveys administered at Harvard, which provided a rich rubric of assessing attitudes an evolving fluency in computational practices. \cite{harvard} 
 
 Following the survey, students were asked to complete ecological applications of statistical computing. These problems assessed students' abilities to both statistically and computationally reason through applications, provide descriptions of how they computationally think through the problems, as well as outline the any gaps noticeable in students' ability to transfer their computational understandings to applications. Computational problems were developed in collaboration with Statistics faculty at the university, using data from the Blackfoot River, collected by Montana Fish, Wildlife, and Parks in years 1989 to 2006. 
 
-The survey and application interview are included as appendices. 
+## Assumptions 
+
+For this study, we believe the factors presented in the concept map could influence Ecology and Environmental Science graduate students' abilities to transfer their statistical computing skills to applications relevant to their field. These contributing factors, as well as the relationships between factors, may change following data collection and analysis. 
+
+The study made assumptions that the students interviewed would,  
+
+* truthfully report their coursework,   
+* truthfully report their research work,  
+* use all knowledge available to them in answering application questions, and \item will not exhibit the Hawthorne effect when being interviewed.  
+
+
+## Positionality   
+
+As a doctoral student in Statistics, I am familiar with the course material of the Statistics 511 and 512 courses. Additionally, I have performed statistical consulting for graduate students in the Ecology and Land Resources, Environmental Science departments, and have seen a small number of computational components to these graduate students' research that they struggle with. In my coursework as a graduate student, I experienced computational shortfalls, where I was expected to have the ability to transfer concepts I had learned previously to a new, seemingly unrelated, problem. These experiences as a graduate student and a statistical consultant brought me to this topic of how graduate science students are able to successfully transfer their statistical computing abilities to applications.  
+
+The process by which I learn statistical computing skills has informed the study's hypothesized conceptual map. This map reflects the factors and hierarchy that influence my ability to learn new computational skills. Additionally, my philosophical beliefs reinforce the concepts in this map. For example, considering value as a large factor in student achievement, reinforces my pragmatic axiological belief that knowledge is based on the value the student places upon it. Additionally, the method of inquiry inherent in the study reflects my epistemological belief that acquiring the knowledge necessary for solving application problems can come from many possible venues. 
+
+
 
 ## Ethical Considerations  
 
