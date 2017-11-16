@@ -1,7 +1,7 @@
 ---
-title: "Applications of Computational Knowledge and Understanding: A Phenomenological Study of Envrionmental Science Graduate Students"
+title: "Computational Knowledge Aquisition Strategies Among Environmental Science Graduate Students in a Methods of Data Analysis Course Sequence"
 author: "Allison Theobold and Stacey Hancock"
-date: "October 4, 2017"
+date: "November 16, 2017"
 output:
   pdf_document:
     fig_height: 3
@@ -69,20 +69,15 @@ set.seed(1800)
 # Abstract 
 
 
-\footnote{About Authors!}
-
-
 # Introduction  
 
 Computing has become foundational in the fields of Environmental Sciences, however, the gap between Environmental Science education and computation has become more evident. With the growth in computational power, the complexity of Environmental Science models has followed, multiplying the computational, mathematical, and statistical expectations of researchers' abilities. Because of the importance of computational knowledge and abilities, some universities have started to require Environmental Science students to enroll in an introductory programming course \cite{rubinstein}, while others are providing computing bootcamps for quantitative methods \cite{bootcamp}.  
 
-This research focuses on graduate students enrolled at a mid-size university in the Rocky Mountains, where Methods of Data Analysis I and II are graduate statistics courses required for the completion of a Master's degree in many Environmental Science fields, such as Ecology, Land Resources Environmental Sciences, Animal and Range Sciences, Plant Sciences. The large assortment of fields this sequence of courses services will hence be labeled under the banner of  Environmental Science. This terminal statistics sequence intends to prepare graduate students for the statistical and computational problems they may face as researchers and practitioners. The intention of this study was to describe and understand what factors impact Environmental Science graduate students' computational knowledge and ability to reason through applications in their disciplines. In examining the experiences Environmental Science graduate students face when applying their computational skills, the present study seeks to capture a more in-depth understanding of the successes and shortfalls experienced when implementing computational thinking and skills. 
+This research focuses on graduate students enrolled at a mid-size university in the Rocky Mountains, where Methods of Data Analysis I and II are graduate statistics courses required for the completion of a Master's degree in many Environmental Science fields, such as Ecology, Land Resources Environmental Sciences, Animal and Range Sciences, Plant Sciences. The large assortment of fields this sequence of courses services will hence be labeled under the banner of  Environmental Science. This terminal statistics sequence intends to prepare graduate students for the statistical and computational problems they may face as researchers and practitioners. The intention of this study is to describe and understand what factors impact how Environmental Science graduate students gain  computational knowledge and the ability to reason through applications in their disciplines. In examining the experiences Environmental Science graduate students face when acquiring computational skills, the present study seeks to capture a more in-depth understanding of the successes and shortfalls experienced when acquiring computational knowledge and skills. The primary research questions that guided this study were:  
 
-Students who participated in the study both described their experiences with computational thinking and reasoning through applications related to their field. The primary research questions that guided this study were:  
+1. What factors (attitude, background, course content, etc.) impact how graduate Environmental Science students' gain computational knowledge and the ability to reason through applications in their discipline?  
 
-1. What factors (attitude, background, course content, etc.) impact graduate Environmental Science students' ability to transfer computational skills and understandings to applications in their discipline?  
-
-2. In what ways (if any) do these factors inhibit or foster students' computational understandings and abilities, across different skill levels? 
+2. In what ways (if any) do these factors inhibit or foster students' computational understandings and abilities, across different backgrounds? 
 
 # Computational Thinking and Abilities of Envrionmental Science Students
 
@@ -106,7 +101,7 @@ Graduate level terminal statistics courses, such as Methods of Data Analysis I a
 
 For this study, a pragmatic phenomenological approach is appropriate as the intention is to understand and describe common experiences in computational thinking and abilities for Environmental Science graduate students in applying their computational skills and understandings to applications in their field. The focus of this study, on the actions taken by students in the process of computationally reasoning through an application, lends itself naturally to a pragmatic framework. This framework allows for a focus on the process of finding a working solution, allowing for varied solutions rather than a single solution \cite{creswell}.  
 
-For this study we focus on the factors that impact Environmental Science graduate students' computational knowledge and ability to reason through applications in their disciplines. Unlike typical definitions of computational knowledge and abilities, which focus on a student's understanding and fluency of computer program, we chose to also include knowledge of data structures, the ability to reason through problems with a given set of tools, as well as knowledge of resources that could provide assistance in solving a particular problem \cite{compthinking}. 
+For this study we focus on the factors that impact how Environmental Science graduate students' gain computational knowledge and the ability to reason through applications in their disciplines. Unlike typical definitions of computational knowledge and abilities, which focus on a student's understanding and fluency of computer program, we chose to also include knowledge of data structures, the ability to reason through problems with a given set of tools, as well as knowledge of resources that could provide assistance in solving a particular problem \cite{compthinking}. 
 
 <!-- In a similar approach to Weintrop, et al. we move away from defining computational knowledge and abilities to decontextualized computer science specific practices, instead focusing on "real-world instantiations of computational thinking in the wild." -->
 
@@ -200,7 +195,7 @@ r <- ggplot(prereq, aes(x = Prereq, y = count, colour = Prereq,
         axis.text.y = element_blank()) +
   theme(plot.title = element_text(size = rel(2), colour = "blue"), 
         axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant \nMethods of Data Analysis I Enrollment", x = "", 
+  labs(list(title = "Survey Participant Methods \nof Data Analysis I", x = "", 
             y = "Number of Students"))
 
 s <- ggplot(cs_course, aes(x = CS_courses, y = count, colour = CS_courses, 
@@ -363,7 +358,7 @@ Kelly described her experiences with data management for her Master's thesis as 
 
 # Discussion  
 
-The intention of this study was to describe and understand what factors impact Ecology and Environmental Science graduate students' computational knowledge and ability to reason through applications in their disciplines. Students who participated in the study both described their experiences with computational thinking and their ability to reason through applications related to their field.  
+The intention of this study is to describe and understand what factors impact how Environmental Science graduate students gain  computational knowledge and the ability to reason through applications in their disciplines. Students who participated in the study both described their experiences with computational thinking and their ability to reason through applications related to their field.  
 
 Three themes arose from the study, characterizing the factors with the greatest impact on the participants' experiences in acquiring computational knowledge and abilities, as related to applications in their fields. First, participants voiced the importance of their experiences performing independent research as a substantial influence on their abilities to reason through and perform computational problems. Through independent research, the participants were able to play with real-world data and applications outside of what they saw in the classroom. These experiences also opened the door to the unease that comes when one is asked to perform computational tasks beyond one's knowledge. In these circumstances, the participants discussed their reliance on peers and singular consultants to aid them in accomplishing computational tasks.  
 
@@ -371,9 +366,9 @@ The second and third themes both focus on the participants' acquisition of compu
 
 In a direct connection to the participants' discomfort in asking for help from an adviser, the third theme of a singular consultant emerged. These singular consultants serve as an all-knowing individual, from whom the participants have either had the "best" experiences with, where the individual spends the necessary time to explain the concepts, or the consultant has always been capable of providing the participant with an answer to their problem. These figures serve a similar role to peers, where the participants are both able to seek computational help and acquire new computational skills and understandings through their interactions. However, as opposed to the help participants received from peers, the students never voiced any negative experiences when seeking help from these consultants.   
 
-The second purpose of this study was to describe how these factors impacted students' computational abilities across different levels of understanding. The theme of research experiences, with its overall positive tone by participants, produced different experiences for students with fewer computational skills and understandings than students with more. The frustrations of simple tasks, such as subsetting data or removing NA's, were felt by the participants who completed a Bachelor's without any computational elements to their coursework, while those who were exposed to small amounts of computing in their undergraduate coursework, such as a GIS course or experience with ``Access`` databases, were able to begin computational tasks in their research walking and not crawling.  
+The second purpose of this study was to describe how these themes impact students' computational abilities across different backgrounds. The theme of research experiences, with its overall positive tone by participants, produced different experiences for students with fewer computational skills and understandings than students with more. The frustrations of simple tasks, such as subsetting data or removing NA's, were felt by the participants who had completed a Bachelor's without any computational elements to their coursework, while those who were exposed to small amounts of computing in their undergraduate coursework, such as a general computer science courses, a GIS course, or experience with ``Access`` databases, were able to begin computational tasks in their research walking and not crawling.  
 
-The largest difference in the impacts of a factor between computational skill groups, came in the theme of a singular consultant. One participant, Stephanie, who entered graduate school after completing a year's work as a research assistant, working in ``R``, instead serves as the computational consultant for the Environmental Science department. She still described the theme of seeking help from her peers, predominantly her lab-mates, but, for her, the singular consultant was her adviser. Potentially due to her larger computational understanding, Stephanie voiced that she feels less of a power difference than her peers when seeking help from her adviser.     
+The largest difference in the impacts of a factor between computational skill groups, came in the theme of a singular consultant. One participant, Stephanie, who entered graduate school after completing a year's work as a research assistant, working in ``R``, instead serves as the computational consultant for the Environmental Science department. She still described the theme of seeking help from her peers, predominantly her lab-mates, but, for her, the singular consultant was her adviser. Potentially due to her more substantial computational background, Stephanie voiced that she feels less of a power difference than her peers when seeking help from her adviser.     
 
 # Conclusion & Implications   
 
@@ -513,7 +508,7 @@ Ravitch, S. M., \& Riggan, M. (2012). Reason \& rigor: How conceptual frameworks
 Robison-Cox, J. (2014). Statistics 505, Linear Models [Course Notes]. Montana State University, Department of Mathematics and Statistics.  
 
 \bibitem{rubinstein}
-Rubinstein A, Chor B (2014) Computational Thinking in Life Science Education. PLOS Computational Biology 10(11): e1003897. doi: 10.1371/journal.pcbi.1003897
+Rubinstein A, Chor B (2014). Computational Thinking in Life Science Education. PLOS Computational Biology 10(11): e1003897. doi: 10.1371/journal.pcbi.1003897
 
 \bibitem{savin}
 Savin-Baden, M., \& Major, C. H. (2013). Chapter 5: Personal stance positionality and reflexivity. Qualitative Research: The Essential Guide to Theory and Practice. London: Routledge.
@@ -537,6 +532,9 @@ United States Department of Education, A Test of Leadership: Charting the Future
 
 \bibitem{wilson}
 Wilson, G., Alvarado, C., Campbell, J., Landau, R., \& Sedgewick, R. (2008). CS-1 for scientists. SIGCSE Bull., 40(1):36-37.
+
+\bibitem{compthinking}
+Weintrop, D., Beheshti, E., Horn, M., Orton, K., Jona, K., Trouille, L., \& Wilensky, U. (2016). Defining Computational Thinking for Mathematics and Science Classrooms. Journal of Science Education Technology 25, 127-147. 
 
 \bibitem{wing}
 Wing, J. M. (2006). Computational thinking. Commun. ACM,
