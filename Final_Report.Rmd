@@ -1,11 +1,11 @@
 ---
 title: "Computational Knowledge Aquisition Strategies Among Environmental Science Graduate Students in a Methods of Data Analysis Course Sequence"
 author: "Allison Theobold and Stacey Hancock"
-date: "November 16, 2017"
+date: "November 27, 2017"
 output: pdf_document  
 bibliography: Citations.bib
 
-header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb} \usepackage{microtype} \usepackage{multicol} \usepackage{tikz} \usetikzlibrary{arrows, positioning} 
+header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb} \usepackage{microtype} \usepackage{multicol} \usepackage{tikz} 
 ---
 
 ```{r setup, include = FALSE, echo = FALSE}
@@ -61,6 +61,7 @@ set.seed(1800)
 
 # Abstract 
 
+This study describes the experiences of graduate Environmental Science students in acquiring computational knowledge, and the factors that foster or inhibit learning. In examining the experiences Environmental Science graduate students face when acquiring computational skills, the present study seeks to capture a more in-depth understanding of the successes and shortfalls these students experience when procuring computational knowledge and skills. Interviews were conducted and students were asked to describe their coursework, where and how they acquired their computational knowledge, and discuss their experiences in acquiring this knowledge. The interviews revealed three different themes of the factors that impact students' computational knowledge acquisition. The first theme describes how peer support has impacted participants' abilities to transfer computational skills  to applications in their field. The second theme provides participants' descriptions of how a singular graduate student or faculty influenced their computational abilities. The third theme recounts how participants' independent research experiences have affected their computational abilities. In addition, their research experiences helped to emphasize the importance of computational literacy to their field. These themes provide rich descriptions of experiences to better inform how both instruction and learning could be improved, and suggest further investigations on how to best teach these computational concepts, so that students leave the classroom with understandings they can implement immediately in their own research.
 
 # Introduction  
 
@@ -68,21 +69,21 @@ Computing has become foundational in the fields of Environmental Sciences, howev
 
 This research focuses on graduate students enrolled at a mid-size university in the Rocky Mountains, where Methods of Data Analysis I and II are graduate statistics courses required for the completion of a Master's degree in many Environmental Science fields, such as Ecology, Land Resources Environmental Sciences, Animal and Range Sciences, Plant Sciences. \footnote{The large assortment of fields this sequence of courses services will hence be labeled under the banner of  Environmental Science.} This terminal statistics sequence intends to prepare graduate students for the statistical and computational problems they may face as researchers and practitioners. The intention of this study is to describe and understand what factors impact how Environmental Science graduate students gain computational knowledge and the ability to reason through applications in their disciplines. In examining the experiences Environmental Science graduate students face when acquiring computational skills, the present study seeks to capture a more in-depth understanding of the successes and shortfalls these students experience when procuring computational knowledge and skills. The primary research questions that guided this study were:  
 
-1. What factors (attitude, background, course content, etc.) impact how graduate Environmental Science students' gain computational knowledge and the ability to reason through computational applications in their discipline?  
+1. What factors (attitude, background, course content, etc.) impact how graduate Environmental Science students gain computational knowledge and the ability to reason through computational applications in their disciplines?  
 
 2. In what ways (if any) do these factors inhibit or foster students' computational understandings and abilities across different backgrounds? 
 
-# Computational Needs and Abilities of Envrionmental Science Students
+# Computing and the Life Sciences  
 
 Research in computational abilities of Environmental Science majors is in its infancy, with only a handful of institutions performing research that specifically addresses the computation training necessary to prepare students for careers post undergraduate or graduate school. In this section we discuss briefly three literatures that have informed this study. First, we review the literature on the foundational role computation has in mathematics and the sciences. We then discuss the research efforts on curriculum design for introductory computing courses for non-computer science students. Finally, we describe one institutions development and implementation of computational training for graduate students in the biological sciences.
 
-## Importance of Computing in Envrionmental Science  
+## Importance of Computing in Mathematics and the Sciences  
 
-blurb on importance of computing
+Over the last decade the life science fields have seen a rapid increase in the use of computation and analytical tools to model phenomena across many disciplines of inquiry. In some scientific fields, such as biology and chemistry, the recent ability to collect multitudes of data easily and quickly have made computational abilities vital to researchers and practitioners. Meanwhile, fields previously thought to be niche disciplines, such as computational and mathematical biology, are now "becoming an integral part of the practice of biology across all fields [@bootcamp]. Across a large sector of scientific domains applications of mathematical and statistical techniques, such as Markov Chain Monte Carlo, neural networks, and agglomerative hierarchical clustering, have become essential computational understandings in field applications [@weintrop]. With these advances both in data collection, visualization, analysis, and interpretation as well as computational power, analytical methods, and detailed computational models, scientific fields are undergoing a renaissance. These advances have, however, created a growing need for life scientists to receive an appropriate education in computational methods and techniques. The need for computation in education for mathematics and science is greater than ever [@fox]    
 
 ## Computational Courses for Undergraduate Science Majors  
 
-Multi-disciplinary efforts have been made at Purdue, Carnegie-Mellon, Harvey Mudd, Princeton, and Winona State ([@cortina, @dodds, @sedgewick1, @sedgewick2, @wilson, @wing]) to create introductory computing courses with a focus on non-computer science majors, in particular science students, in fields ranging from physics to chemistry to biology. These courses are produced in collaboration with science faculty, and are intended to begin each students journey into computing. Students are presented examples in a familiar language that allows for them to focus on the foundational principles of each computational problem. [@hamb] The physics, chemistry, and bioinformatics departments collaborated with computer science department, conveying their expectations on what they wished the students would learn. The research on undergraduate level computing courses directly relates to the computational abilities of graduate level science researchers, as these students have most likely graduated from an undergraduate life science program with no computational training. The concepts emphasized in the courses developed at Purdue, and elsewhere, can be used to inform Environmental Science and Statistics departments as to what computational skills other scientific disciplines, such as physics, biology, and chemistry, believe to be the most important for students to grasp.   
+Multi-disciplinary efforts have been made at Purdue, Carnegie-Mellon, Harvey Mudd, Princeton, and Winona State [@cortina, @dodds, @sedgewich1, @sedgewich2, @wilson, @wing] to create introductory computing courses with a focus on non-computer science majors, in particular science students, in fields ranging from physics to chemistry to biology. These courses are produced in collaboration with science faculty, and are intended to begin each students journey into computing. Students are presented examples in a familiar language that allows for them to focus on the foundational principles of each computational problem. [@hamb] The physics, chemistry, and bioinformatics departments collaborated with computer science department, conveying their expectations on what they wished the students would learn. The research on undergraduate level computing courses directly relates to the computational abilities of graduate level science researchers, as these students have most likely graduated from an undergraduate life science program with no computational training. The concepts emphasized in the courses developed at Purdue, and elsewhere, can be used to inform Environmental Science and Statistics departments as to what computational skills other scientific disciplines, such as physics, biology, and chemistry, believe to be the most important for students to grasp.   
 
 ## Computational Training for Graduate Science Majors  
 
@@ -95,9 +96,6 @@ Graduate level terminal statistics courses, such as Methods of Data Analysis I a
 For this study, a pragmatic phenomenological approach is appropriate as the intention is to understand and describe common experiences in computational thinking and abilities for Environmental Science graduate students in applying their computational skills and understandings to applications in their field. The focus of this study, on the actions taken by students in the process of computationally reasoning through an application, lends itself naturally to a pragmatic framework. This framework allows for a focus on the process of finding a working solution, allowing for varied solutions rather than a single solution [@creswell].  
 
 For this study we focus on the factors that impact how Environmental Science graduate students' gain computational knowledge and the ability to reason through applications in their disciplines. Unlike typical definitions of computational knowledge and abilities, which focus on a student's understanding and fluency of computer program, we chose to also include knowledge of data structures, the ability to reason through problems with a given set of tools, as well as knowledge of resources that could provide assistance in solving a particular problem [@compthinking]. 
-
-<!-- In a similar approach to Weintrop, et al. we move away from defining computational knowledge and abilities to decontextualized computer science specific practices, instead focusing on "real-world instantiations of computational thinking in the wild." -->
-
 
 ## Participants  
 
@@ -380,7 +378,7 @@ The findings of this study, better inform a concept map of how students acquire 
 \node [draw , ellipse, text width = 2cm, align = center] (3) at (-8, -5) {Course Concepts};
 \node [draw , rectangle, text width = 4cm, align = center, text height = 1cm] (4) at (-3.5, -1) {\vspace{1cm} Programming Understanding \vspace{1cm}};
 \node [draw , ellipse, text width = 2cm, align = center] (7) at (1, -5) {Independent Research};
-\node [draw , ellipse, text width = 4cm, align = center] (8) at (-3.5, -7) {Peer \hspace{4cm} Collaborations};
+\node [draw , ellipse, text width = 4cm, align = center] (8) at (-3.5, -7) {Peer \hspace{4cm} Collaboration};
 
 
 % ATTITUDE AND BACKGROUND TO EACH OTHER
@@ -429,50 +427,3 @@ This study better informs the faculty and staff at this institution of the compu
 \pagebreak  
 
 # References
-
-<!-- \begin{thebibliography}{99} -->
-
-<!-- \bibitem{harvard} -->
-<!-- Computational Thinking | Assessing. (n.d.). Retrieved February 26, 2017, from http://scratched.gse.harvard.edu/ct/assessing.html -->
-
-<!-- \bibitem{cortina} -->
-<!-- Cortina, T. J.(2007). An introduction to computer science for -->
-<!-- non-majors using principles of computation. In I. Russell, -->
-<!-- S. M. Haller, J. D. Dougherty, and S. H. Rodger, editors, -->
-<!-- Proceedings of the 38th ACM SIGCSE Technical Symposium -->
-<!-- on Computer Science Education, 218-222. -->
-
-<!-- \bibitem{creswell} -->
-<!-- Creswell, J. W. (2013). Qualitative Inquiry \& Research Design. Thousand Oaks, California: Sage Publications. -->
-
-<!-- \bibitem{dodds} -->
-<!-- Dodds, Z., Libeskind-Hadas, R., Alvarado, C., \& Kuenning, G. (2008). Evaluating a breadth-first CS 1 for scientists. -->
-<!-- In SIGCSE '08: Proceedings of the 39th ACM SIGCSE -->
-<!-- Technical Symposium on Computer Science Education, -->
-<!-- 266-270. -->
-
-<!-- \bibitem{hamb}  -->
-<!-- Hambrusch, S., Hoffmann, C., Korb, J., Haugan, M., \& Hosking, A. (2009). A Multidisciplinary Approach Towards Computational Thinking for Science Majors. Retrieved from http://dl.acm.org/citation.cfm?id=1508931 -->
-
-<!-- \bibitem{rubinstein} -->
-<!-- Rubinstein A, Chor B (2014). Computational Thinking in Life Science Education. PLOS Computational Biology 10(11): e1003897. doi: 10.1371/journal.pcbi.1003897 -->
-
-<!-- \bibitem{sedgewick1} -->
-<!-- Sedgewick, R. \& Wayne, K. (2008). Introduction to Programming -->
-<!-- in Java: An Interdisciplinary Approach. Addison Wesley.  -->
-
-<!-- \bibitem{sedgewick2} -->
-<!-- Sedgewick, R. \& Wayne, K.. Introduction to Computer -->
-<!-- Science. Addison Wesley, in preparation. -->
-
-<!-- \bibitem{wilson} -->
-<!-- Wilson, G., Alvarado, C., Campbell, J., Landau, R., \& Sedgewick, R. (2008). CS-1 for scientists. SIGCSE Bull., 40(1):36-37. -->
-
-<!-- \bibitem{compthinking} -->
-<!-- Weintrop, D., Beheshti, E., Horn, M., Orton, K., Jona, K., Trouille, L., \& Wilensky, U. (2016). Defining Computational Thinking for Mathematics and Science Classrooms. Journal of Science Education Technology 25, 127-147.  -->
-
-<!-- \bibitem{wing} -->
-<!-- Wing, J. M. (2006). Computational thinking. Commun. ACM, -->
-<!-- 49(3):33-35. -->
-
-<!-- \end{thebibliography} -->
