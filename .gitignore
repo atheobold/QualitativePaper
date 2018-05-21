@@ -2,4 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
-Rplots.pdf
+.gitignore
+.Rplots.pdf

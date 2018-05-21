@@ -1,11 +1,15 @@
 ---
-title: "Computational Knowledge Aquisition Strategies Among Environmental Science Graduate Students in a Methods of Data Analysis Course Sequence"
+title: Computational Knowledge Aquisition Strategies Among Environmental Science Graduate
+  Students in a Methods of Data Analysis Course Sequence
 author: "Allison Theobold and Stacey Hancock"
 date: "November 27, 2017"
-output: pdf_document  
+output:
+  word_document: default
+  pdf_document: default
+header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb}
+  \usepackage{microtype} \usepackage{multicol} \usepackage{tikz}
+csl: apa.csl
 bibliography: Citations.bib
-
-header-includes: \usepackage{float} \usepackage{bm} \usepackage{amsmath} \usepackage{amssymb} \usepackage{microtype} \usepackage{multicol} \usepackage{tikz} 
 ---
 
 ```{r setup, include = FALSE, echo = FALSE}
@@ -178,16 +182,16 @@ Stat_Career <- group_by(survey, Stat_Interest) %>%
 r <- ggplot(prereq, aes(x = Prereq, y = count, colour = Prereq, 
                          fill = Prereq)) +
   geom_bar(stat = "identity") +
-  coord_cartesian(ylim = c(0, 4)) + 
+  coord_cartesian(ylim = c(0, 5)) + 
   geom_text(data = prereq, aes(label = count,
                                 y = count + 0.45), size = 6) + 
-  theme(legend.background = element_rect(colour = "black"), 
-        axis.text.x = element_blank(), 
-        axis.text.y = element_blank()) +
+  theme(legend.position="none") +
   theme(plot.title = element_text(size = rel(2), colour = "blue"), 
-        axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant Methods \nof Data Analysis I", x = "", 
+        axis.title.y = element_text(size = rel(1.2), colour = "black"), 
+        axis.title.x = element_text(size = rel(1), colour = "black")) +
+  labs(list(title = "Methods of Data Analysis I", x = "", 
             y = "Number of Students"))
+  
 
 s <- ggplot(cs_course, aes(x = CS_courses, y = count, colour = CS_courses, 
                          fill = CS_courses)) +
@@ -200,21 +204,23 @@ s <- ggplot(cs_course, aes(x = CS_courses, y = count, colour = CS_courses,
         axis.text.y = element_blank()) +
   theme(plot.title = element_text(size = rel(2), colour = "blue"), 
         axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant \nCS Courses", x = "", 
-            y = "Number of Students"))
+  labs(list(title = "Computer Science Courses", x = "", 
+            y = ""))
 
 t <- ggplot(languages, aes(x = Languages, y = count, colour = Languages, 
                          fill = Languages)) +
   geom_bar(stat = "identity") +
-  coord_cartesian(ylim = c(0, 5)) + 
+  coord_cartesian(ylim = c(0, 4)) + 
   geom_text(data = languages, aes(label = count,
                                 y = count + 0.45), size = 6) + 
+  scale_y_discrete("Number of Students", breaks = c(0, 1, 2, 3, 4), labels = c(0, 1, 2, 3, 4), 
+                                           limits = c(0, 1, 2, 3, 4)) +
   theme(legend.background = element_rect(colour = "black"), 
-        axis.text.x = element_blank(), 
-        axis.text.y = element_blank()) +
+        axis.text.x = element_blank()) +
   theme(plot.title = element_text(size = rel(2), colour = "blue"), 
-        axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant \nCS Languages", x = "", 
+        axis.title.y = element_text(size = rel(1.2), colour = "black"), 
+        legend.justification = c(1, 1), legend.position = c(0.5955, 1)) +
+  labs(list(title = "Computer Science Languages", x = "", 
             y = "Number of Students"))
 
 u <- ggplot(stat_course, aes(x = Stat_courses, y = count, colour = Stat_courses, 
@@ -223,27 +229,30 @@ u <- ggplot(stat_course, aes(x = Stat_courses, y = count, colour = Stat_courses,
   coord_cartesian(ylim = c(0, 4)) + 
   geom_text(data = stat_course, aes(label = count,
                                 y = count + 0.45), size = 6) + 
+  scale_y_discrete("Number of Students", breaks = c(0, 1, 2, 3, 4), labels = c(0, 1, 2, 3, 4), 
+                                           limits = c(0, 1, 2, 3, 4)) +
   theme(legend.background = element_rect(colour = "black"), 
-        legend.position = "none", 
-        axis.text.y = element_blank()) +
+        legend.position = "none") +
   theme(plot.title = element_text(size = rel(2), colour = "blue"), 
         axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant \nStat Courses", x = "", 
-            y = "Number of Students"))
+  labs(list(title = "Statistics Courses", x = "", 
+            y = ""))
 
 v <- ggplot(research, aes(x = Research_Amount, y = count, 
                           colour = Research_Amount, 
                          fill = Research_Amount)) +
   geom_bar(stat = "identity") +
-  coord_cartesian(ylim = c(0, 6)) + 
+  coord_cartesian(ylim = c(0, 4)) + 
   geom_text(data = research, aes(label = count,
                                 y = count + 0.5), size = 6) + 
-  theme(legend.background = element_rect(colour = "black"), 
-        axis.text.x = element_blank(), 
-        axis.text.y = element_blank()) +
-  theme(plot.title = element_text(size = rel(2), colour = "blue"), 
-        axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant \nIndependent Research", x = "", 
+  scale_y_discrete("Number of Students", breaks = c(0, 1, 2, 3, 4), labels = c(0, 1, 2, 3, 4), 
+                                           limits = c(0, 1, 2, 3, 4)) +
+  theme(legend.background = element_rect(colour = "black"),
+        axis.text.x = element_blank()) +
+  theme(plot.title = element_text(size = rel(2), colour = "blue"),
+        axis.title.y = element_text(size = rel(1.2), colour = "black"),
+        legend.justification = c(1, 1), legend.position = c(0.65, 1)) +
+  labs(list(title = "Independent Research", x = "", 
             y = "Number of Students"))
 
 w <- ggplot(CS_interest, aes(x = CS_Interest, y = count, colour = CS_Interest, 
@@ -257,7 +266,7 @@ w <- ggplot(CS_interest, aes(x = CS_Interest, y = count, colour = CS_Interest,
         axis.text.y = element_blank()) +
   theme(plot.title = element_text(size = rel(2), colour = "blue"), 
         axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant \nCS Course Interest", x = "", 
+  labs(list(title = "CS Course Interest", x = "", 
             y = "Number of Students"))
 
 x <- ggplot(Stat_Career, aes(x = Stat_Interest, y = count, 
@@ -271,11 +280,11 @@ x <- ggplot(Stat_Career, aes(x = Stat_Interest, y = count,
         axis.text.y = element_blank()) +
   theme(plot.title = element_text(size = rel(2), colour = "blue"), 
         axis.title.y = element_text(size = rel(1.2), colour = "black")) +
-  labs(list(title = "Survey Participant \nCS/Stat Career Interest", x = "", 
+  labs(list(title = "CS/Stat Career Interest", x = "", 
             y = "Number of Students"))
 
 grid.arrange(r, s, nrow = 1)
-grid.arrange(u, v, t, nrow = 2)
+grid.arrange(v, u, t, nrow = 2)
 
 ```
 
