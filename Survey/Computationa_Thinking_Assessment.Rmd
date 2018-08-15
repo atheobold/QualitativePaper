@@ -1,0 +1,43 @@
+---
+title: "Assessing Computational Thinking Interview"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+Describe a time when your code didn't run as you wanted.  
+
+\vspace{0.5in}
+
+Describe how you investigated the cause of the problem and fixed the problem.  
+
+\vspace{0.5in}
+
+Describe other ways you could have fixed the problem.  
+
+\vspace{0.5in}
+
+Describe a time when you could not find a way to fix your code.  
+
+\vspace{0.5in}
+
+Where did you turn to for help and why? 
+
+\vspace{0.5in}
+
+Describe how you found advice or support by using someone else's code on a project or homework. Why did you seek out advice or support? 
+
+\vspace{0.5in}
+
+Describe a time you used the code from another homework or project as part of your homework or project. How often do you use previous code on a current project or homework?    
+
+\vspace{0.5in}
+
+Describe a time you modified existing code (either someone else's or your own) to improve or enhance it.  
+\vspace{0.5in}
+
+Where have you learned the statistical computing skills necessary for your course work and research?  
+
+\vspace{0.5in}
+
+ 
